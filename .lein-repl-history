@@ -1,0 +1,22 @@
+(use 'i_am_a_horse_in_the_land_of_booleans)
+teen?12
+(teen? 12)
+(use 'i-am-a-horse-in-the-land-of-booleans)
+(teen? 12)
+(teen? 13)
+(use 'i-am-a-horse-in-the-land-of-booleans)
+(teen? 13)
+(abs 13)
+(defn abs [x]
+  (if (< x 0) (* -1 x) (x) )
+)
+(defn abs1 [x]
+  (if (< x 0) (* -1 x) (x) )
+)
+abs1
+abs1 13
+(abs1 13)
+(use 'i-am-a-horse-in-the-land-of-booleans)
+(abs 13)
+(abs -13)
+exit
