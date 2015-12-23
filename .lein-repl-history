@@ -16,7 +16,4 @@ teen?12
 abs1
 abs1 13
 (abs1 13)
-(use 'i-am-a-horse-in-the-land-of-booleans)
-(abs 13)
-(abs -13)
 exit
